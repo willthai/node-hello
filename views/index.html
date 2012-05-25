@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Will's World, Pwarty Time
+		</title>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+		<link type='text/css' rel='stylesheet' href='/css/reset.css'/>
+		<link type='text/css' rel='stylesheet' href='/css/master.css' />
+	</head>
+	<body>
+		<h1>{{header}}</h1>
+		<p>{{content}}</p>
+		<div class='add-products'>
+			<input id='product' type=text length=30>
+			<button id='getProduct' class='btn get-product'>Insert Stuff</button>
+		</div>
+		<button id='getAll' class='btn'>Get All</button>
+		<ol>
+			{{#each products}}
+			<li>{{product}}</li>
+			{{/each}}
+		</ol>
+		<script src='/js/index.js'></script>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	margin: 1rem;
+}
+h1 {
+	font-size: 2rem;
+}
+.add-products {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 700px;
+	float: left;
+	margin: 1rem 0;
+}
+input {
+	border: 1px solid #AAA;
+}
+.btn {
+	border: 1px solid #AAA;
+	border-radius: 3px;
+	height: 2rem;
+}
+.get-product {
+	width: 22rem;
+	margin: 0;
+}
+#product {
+	margin: 0 1rem;
+	height: 1.5rem
+}
