@@ -1,0 +1,30 @@
+.list {
+	min-height: 400px;
+	width: 400px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-broder-radius: 4px;
+}
+
+.list h1 {
+	color: darkRed;
+	border-bottom: 1px solid #AAA;
+	padding: 0.1rem;
+	overflow: hidden;
+}
+.list li {
+	border-bottom: 1px solid #AAA;
+	padding: 0.5rem 0.5rem 0.5rem 0.15rem;
+}
+.list button {
+	float: right;
+}
+.list h1 button {
+	float: right;
+	border: 1px solid #AAA;
+	border-radius: 4px;
+	font-size: 1.4rem;
+	margin: .1rem;
+	padding: 0 0.25rem;
+}

@@ -8,6 +8,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
 		<link type='text/css' rel='stylesheet' href='/css/reset.css'/>
 		<link type='text/css' rel='stylesheet' href='/css/master.css' />
+		<link type='text/css' rel='stylesheet' href='/css/index.css' />
 	</head>
 	<body>
 		<h1>{{header}}</h1>
@@ -19,9 +20,26 @@
 		<button id='getAll' class='btn'>Get All</button>
 		<ol>
 			{{#each products}}
-			<li>{{this}}</li>
+			<li>{{product}}</li>
 			{{/each}}
 		</ol>
+		<div class='list'>
+			<h1>Enter Your List</h1>
+			<div class='check-list'>
+				<ul>
+					<li>
+						<input type=checkbox>
+						<span>peas</span>
+						<button>></button>
+					</li>
+					<li>
+						<input type=checkbox>
+						<span>carrots</span>
+						<button>></button>
+					</li>
+				</ul>
+			</div>
+		</div>
 		<script src='/js/index.js'></script>
 	</body>
 </html>
